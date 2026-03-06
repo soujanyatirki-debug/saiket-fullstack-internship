@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.intro-section {
+    background-color: #0d6efd;
+    color: white;
+    padding: 100px 0;
+}
+.section-title {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.project-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    transition: 0.3s ease;
+    background-color: #f8f9fa;
+}
+.project-box:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transform: translateY(-5px);
+}
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
